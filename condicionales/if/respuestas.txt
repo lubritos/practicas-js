@@ -1,0 +1,46 @@
+Respuesta 2
+<script>
+	var culpable = window.prompt("¿eres culpable?"); // si, no
+
+	if(culpable == "si"){
+		document.write("irás a la cárcel");
+	}else if(culpable == "no"){
+		document.write("irás a casa");
+	}else{
+		document.write("la documentación por favor");
+	}
+
+</script>
+
+
+
+Respuesta 3
+<script>
+    var helado = window.prompt("¿Qué sabor quieres?");
+
+    if(helado == "Vainilla"){
+        document.write("El sabor cuesta $20 pesos");
+    }else if(topping == "Chocolate"){
+        document.write("El sabor cuesta $30 pesos");
+    }else if(topping == "Menta"){
+        document.write("El sabor cuesta $40 pesos");
+    } else {
+        document.write("no tenemos este sabor, lo sentimos. ");
+    }
+
+</script>
+
+
+Respuesta 4
+<script>
+    var nota = window.prompt("¿Qué nota saco?");
+
+    if(nota <= 5){
+        document.write("El Alumno esta reprobado.");
+    }else if(nota >= 6 && nota < 8 ){
+        document.write("El Alumno esta regular.");
+    }else if(nota >= 8){
+        document.write("El Alumno esta promocionado");
+    }
+
+</script>
