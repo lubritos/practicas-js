@@ -1,1 +1,1 @@
-# practicas-js
+# Praticas en Javascript
