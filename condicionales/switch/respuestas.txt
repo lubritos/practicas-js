@@ -1,0 +1,54 @@
+Ejercicio 1
+
+<script>
+var traducir = prompt("Ingrese una palabra");
+
+switch(traducir) {
+    case "casa":
+        document.write("house");
+        break;
+    case "mesa":
+        document.write("table");
+        break;
+    case "perro":
+        document.write("dog");
+        break;
+    case "gato":
+        document.write("cat");
+        break;
+}
+</script>
+
+Ejercicio 2
+
+<script type="text/javascript">
+    var motor;
+    
+    motor = prompt('Por vavor introduce el tipo de motor ( los valores posibles son 1, 2, 3, 4 ): ');
+    motor = Number(motor);
+    switch (motor){
+
+        case 0:
+        alert ('No hay establecido un valor definido para el tipo de bomba.');
+        break;
+
+        case 1:
+        alert ('La bomba es una bomba de agua.');
+        break;
+
+        case 2:
+        alert ('La bomba es una bomba de gasolina.');
+        break;
+
+        case 3:
+        alert ('La bomba es una bomba de hormigón.');
+        break;
+
+        case 4:
+        alert ('La bomba es una bomba de pasta alimenticia.');
+        break;
+
+        default: ('No existe ningin valor válido para tipo de bomba.')
+    }
+
+</script>

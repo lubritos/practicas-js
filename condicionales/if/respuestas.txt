@@ -34,7 +34,7 @@ Respuesta 3
 Respuesta 4
 <script>
     var nota = window.prompt("¿Qué nota saco?");
-
+    nota = parseInt(nota);
     if(nota <= 5){
         document.write("El Alumno esta reprobado.");
     }else if(nota >= 6 && nota < 8 ){
